@@ -198,7 +198,7 @@
 		      </ul>
 		    </section>
 		    <!-- /.sidebar -->
-		  </aside>
+		</aside>
 	</div>
 	
 </template>
