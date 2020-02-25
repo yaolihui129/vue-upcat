@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Desktop from '../views/Desktop.vue'
-import login from '../views/Login.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -13,12 +13,12 @@ const routes = [
 		component: Login
 	},
 	{
-		path: '/upcat',
+		path: '/home',
 		name: 'Home',
 		component: Home,
 		children:[
 		{
-		  path: '/desktop',
+		  path: '/index',
 		  name: 'Desktop',
 		  component: Desktop
 		},
